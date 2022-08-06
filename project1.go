@@ -20,19 +20,17 @@ func MirrorWriting(str string) string {
 
 func main() {
 
-	s := "Osman Muratgül"
+	Text1 := "Osman Muratgül"
 
-	i := utf8.RuneCountInString(s)
-	fmt.Println(s)
-	fmt.Println(i)
+	Text1Count := utf8.RuneCountInString(Text1)
 
-	a := "Golang"
+	Text2 := "Golang"
 
-	l := utf8.RuneCountInString(a)
-	fmt.Println(a)
-	fmt.Println(l)
+	Text2Count := utf8.RuneCountInString(Text2)
 
 	fmt.Println(MirrorWriting("Osman Muratgül"))
 	fmt.Println(MirrorWriting("Golang"))
+	fmt.Println(Text1Count)
+	fmt.Println(Text2Count)
 
 }
