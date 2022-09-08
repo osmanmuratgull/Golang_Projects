@@ -6,6 +6,9 @@ import (
 )
 
 func MirrorWriting(str string) string {
+
+	fmt.Println("Program Başladı")
+
 	byte_str := []rune(str)
 
 	for i, j := 0, len(byte_str)-1; i < j; i, j = i+1, j-1 {
@@ -32,5 +35,7 @@ func main() {
 	fmt.Println(MirrorWriting("Golang"))
 	fmt.Println(Text1Count)
 	fmt.Println(Text2Count)
+
+	fmt.Println("Program Sonlandırıldı")
 
 }
