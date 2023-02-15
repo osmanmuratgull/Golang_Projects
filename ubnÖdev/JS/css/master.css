@@ -1,0 +1,81 @@
+
+
+.images {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 20%;
+    padding-left: 40%;
+    width: 20%;
+    height: 20%;
+}
+
+input {
+    border-radius: 20px;
+    width: 50%;
+    height: 5%;
+}
+
+/* 2. kISSIM */
+
+#box {
+    max-width: 300px;
+    position: relative;
+}
+
+#box .fa-search{
+    position: absolute;
+    top: 14px;
+    left: 12px;
+    font-size: 20px;
+    color: cornflowerblue;
+}
+
+.search{
+    width: 50%;
+    height: 5%;
+    padding-left: 50px;
+    box-sizing: border-box;
+    border: 2px solid cornflowerblue;
+    border-radius: 50px;
+    font-size: 18px;
+    padding: 12px 20px 12px 40px;
+    margin-left: 25%;
+}
+
+.button{
+    background-color: #f8f9fa;
+    border: #f8f9fa;
+    border-radius: 5px;
+    color: black;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 35%;
+    
+    
+}
+.button2{
+    background-color: #f8f9fa;
+    border: #f8f9fa;
+    border-radius: 5px;
+    color: black;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 3%;
+    
+}
+
